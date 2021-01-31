@@ -1,0 +1,104 @@
+body{
+    font-family: 'Asul', sans-serif;
+}
+/* h1 */
+.big-heading{
+    font-family: 'Libre Baskerville', serif;
+}
+/* h3 */
+.small-heading{
+
+}
+/* Navbar  */
+
+.navbar{
+    background-color: #e3fdfd;
+} 
+
+.nav-pills .nav-link.active {
+    background-color: #cbf1f5!important;
+} 
+
+
+
+/* About Me  */
+#about-section{
+    background-color: #cbf1f5;
+    padding: 40px 10px;
+    text-align: center;
+}    
+.intro-para{
+    width: 50%;
+    line-height: 2;
+    margin: 10px auto;
+}
+
+/* My Skills */
+#skill-section{
+    line-height: 1.5;
+    background-color: #a6e3e9;
+    padding: 20px 0;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.webd-image, .programming-image{
+    float: left;
+    margin-right: 20px;
+}
+
+.android-image, .solve-image{
+    float: right;
+    margin-left: 20px;
+}
+
+.skill-row-left, .skill-row-right{
+    height: 250px;
+    margin: 10px auto;
+    width:50%;
+
+}
+
+.skill-row-left{
+    text-align: left;
+}
+
+.skill-row-right{
+    text-align: right;
+}
+
+
+
+@media (max-width: 900px){
+    .skill-row-right, .skill-row-left{
+        width: 100%;
+    }
+}
+/* My Projects */
+
+
+/* Call to Action */
+#call-to-action{
+    background-color: #71c9ce;
+    padding : 7rem 4rem;
+}
+
+/* Footer */
+.footer-section{
+    background-color: #3282b8;
+    padding: 40px 0;
+    text-align: center;
+}
+.copyright{
+    padding-top: 20px;
+}
+
+.foot-icon{
+    margin-right: 5px;
+}
+
+.footer-section a{
+    color: #000;
+}
